@@ -1,0 +1,17 @@
+{
+  "name": "wasm_in_one_file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-wasm": "^6.1.3",
+    "rollup": "^3.23.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.6.0",
+    "@tensorflow/tfjs-core": "^4.6.0",
+    "rollup-plugin-visualizer": "^5.9.0"
+  }
+}
