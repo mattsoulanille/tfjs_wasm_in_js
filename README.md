@@ -13,8 +13,10 @@ node bundle.js
 
 ```shell
 $ yarn
-<generic yarn output truncated since it's long>
-$ yarn bundle
+yarn install v1.22.19
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.10s.
 $ yarn bundle
 yarn run v1.22.19
 $ rollup -c
@@ -29,3 +31,4 @@ $ node bundle.js
 Tensor
     [5, 7, 9]
 ```
+I'm not sure why the sourcemap is broken. It seems to work for this simple example in the debugger, but I'm not sure it will consistently work for every use case.
