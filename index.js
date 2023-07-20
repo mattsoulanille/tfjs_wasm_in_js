@@ -42,7 +42,9 @@ async function main() {
   }, /* use platform fetch */ true);
 
   await tf.setBackend('wasm');
+
   tf.tensor1d([1,2,3]).add(tf.tensor1d([4,5,6])).print();
+  // More code goes here
 }
 
 main();
